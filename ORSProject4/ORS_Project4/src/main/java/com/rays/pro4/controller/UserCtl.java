@@ -39,7 +39,7 @@ public class UserCtl extends BaseCtl {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see in.co.rays.ors.controller.BaseCtl#preload(javax.servlet.http.
+	 * @see in.co.rays.ors.controller.BaseCtl# preload(javax.servlet.http.
 	 * HttpServletRequest)
 	 */
 	@Override
@@ -261,7 +261,7 @@ public class UserCtl extends BaseCtl {
 					System.out.println(" U ctl DoPost 33333");
 					long pk = model.add(bean);
 					// bean.setId(pk);
-					// ServletUtility.setBean(bean, request);
+//					 ServletUtility.setBean(bean, request);
 
 					ServletUtility.setSuccessMessage("User is successfully Added", request);
 					//ServletUtility.forward(getView(), request, response);

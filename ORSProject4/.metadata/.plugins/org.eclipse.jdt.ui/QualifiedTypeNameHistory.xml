@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.CollegeModel"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.BankModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.BankBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.UserBean"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.HotelModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.HotelBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.ServletUtility"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.TranportBean"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Exception.ApplicationException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.JDBCDataSource"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.DataValidator"/>
+    <fullyQualifiedTypeName name="com.sun.java.swing.plaf.windows.TMSchema.Prop"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.PropertyReader"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.DataUtility"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.TransportModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.TransportBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.OrderBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.OrderModel"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.BaseBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.controller.BaseCtl"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.InventoryBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.InventoryModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.controller.ORSView"/>
+</qualifiedTypeNameHistroy>

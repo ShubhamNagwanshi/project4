@@ -79,6 +79,8 @@
         <a href="<%=ORSView.ROLE_CTL%>">Add Role</b></a> |        
         <a href="<%=ORSView.ROLE_LIST_CTL%>">Role List</b></a> |
         <br>
+         <a href="<%=ORSView.INVENTORY_CTL%>">Add Inventory</b></a> |        
+        <a href="<%=ORSView.INVENTORY_LIST_CTL%>">Inventory List</b></a> |
         <a href="<%=ORSView.STUDENT_CTL%>">Add Student</b></a> |
         <a href="<%=ORSView.STUDENT_LIST_CTL%>">Student List</b></a> |
         <a href="<%=ORSView.COURSE_CTL %>" >Add Course</b></a> |       
@@ -89,6 +91,10 @@
         <a href="<%=ORSView.FACULTY_LIST_CTL %>">Faculty List</b></a> |
         <a href="<%=ORSView.TIMETABLE_CTL %>" >Add TimeTable</b></a> |       
         <a href="<%=ORSView.TIMETABLE_LIST_CTL %>">TimeTable List</b></a> |
+       <%--   <a href="<%=ORSView.BANK_CTL %>" >Bank Account</b></a> | --%>
+        <a href="<%=ORSView.ORDER_CTL%>">Add Order</b></a>|
+        <%-- <a href="<%=ORSView.BANK_LIST_CTL %>" >Bank List</b></a> | --%>
+         <a href="<%=ORSView.ORDER_LIST_CTL %>">Order List</b></a> |  
         <a target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> |
        <%
      		}

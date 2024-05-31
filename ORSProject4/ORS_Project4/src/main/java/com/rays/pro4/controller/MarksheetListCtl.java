@@ -14,6 +14,7 @@ import org.apache.log4j.Logger;
 import com.rays.pro4.Bean.BaseBean;
 import com.rays.pro4.Bean.MarksheetBean;
 import com.rays.pro4.Exception.ApplicationException;
+import com.rays.pro4.Model.CollegeModel;
 import com.rays.pro4.Model.MarksheetModel;
 import com.rays.pro4.Util.DataUtility;
 import com.rays.pro4.Util.PropertyReader;
@@ -48,9 +49,12 @@ public class MarksheetListCtl extends BaseCtl {
 	@Override
 	protected void preload(HttpServletRequest request) {
 		MarksheetModel model= new  MarksheetModel();
+		CollegeModel cmodel = new CollegeModel();
 		try {
 			List list = model.list(0, 0);
+			List clist = cmodel.list(0, 0);
 			request.setAttribute("rollNo", list);
+			request.setAttribute("CollegeList", clist);
 		} catch (ApplicationException e) {
 			e.printStackTrace();
 		}
@@ -110,6 +114,7 @@ public class MarksheetListCtl extends BaseCtl {
 			ServletUtility.setList(list, request);
 			ServletUtility.setPageNo(pageNo, request);
 			ServletUtility.setPageSize(pageSize, request);
+			ServletUtility.setBean(bean, request);
 			ServletUtility.forward(getView(), request, response);
 			log.debug("MarksheetListCtl doGet End");
 

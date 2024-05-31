@@ -1,3 +1,4 @@
+
 package com.rays.pro4.controller;
 
 import java.io.IOException;
@@ -118,7 +119,7 @@ public class UserListCtl extends BaseCtl {
 			ServletUtility.setList(list, request);
 			ServletUtility.setPageNo(pageNo, request);
 			ServletUtility.setPageSize(pageSize, request);
-			// ServletUtility.setBean(bean, request);
+			 ServletUtility.setBean(bean, request);
 			ServletUtility.forward(getView(), request, response);
 		} catch (ApplicationException e) {
 			log.error(e);

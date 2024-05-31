@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="InventoryBean"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="OrderBean"/>
+			<item value="OrderModel"/>
+			<item value="st_order"/>
+			<item value="TranportBean"/>
+			<item value="TestHotel"/>
+			<item value="HotelBean"/>
+			<item value="HotelListCtl"/>
+			<item value="HotelCtl"/>
+			<item value="st_hotel"/>
+			<item value="OderBean"/>
+			<item value="oderbean"/>
+			<item value="getInt"/>
+			<item value="session time out"/>
+			<item value="timeout"/>
+			<item value="time-out"/>
+		</list>
+		<list key="replacehistory">
+			<item value="InventoryBean"/>
+			<item value="InventoryModel"/>
+			<item value="st_inventory"/>
+			<item value="TransportBean"/>
+			<item value="TestOrder"/>
+			<item value="OrderBean"/>
+			<item value="OrderListCtl"/>
+			<item value="OrderCtl"/>
+			<item value="st_order"/>
+			<item value="OderBean"/>
+			<item value="getLong"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="801"/>
+		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

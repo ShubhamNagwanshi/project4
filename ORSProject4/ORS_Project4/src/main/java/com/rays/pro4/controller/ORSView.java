@@ -44,6 +44,12 @@ public interface ORSView {
 		 public String SUBJECT_LIST_VIEW = PAGE_FOLDER + "/SubjectListView.jsp";
 		 public String TIMETABLE_VIEW = PAGE_FOLDER + "/TimeTableView.jsp";
 		 public String TIMETABLE_LIST_VIEW = PAGE_FOLDER + "/TimeTableListView.jsp";
+		 public String BANK_VIEW = PAGE_FOLDER + "/BankView.jsp";
+		 public String BANK_LIST_VIEW = PAGE_FOLDER + "/BankListView.jsp";
+		 public String ORDER_VIEW = PAGE_FOLDER + "/OrderView.jsp";
+		 public String ORDER_LIST_VIEW = PAGE_FOLDER + "/OrderListView.jsp";
+		 public String INVENTORY_VIEW = PAGE_FOLDER + "/InventoryView.jsp";
+		 public String INVENTORY_LIST_VIEW = PAGE_FOLDER + "/InventoryListView.jsp";
 		 public String ERROR_VIEW = PAGE_FOLDER + "/ErrorView.jsp";
 		 //   public String ERROR_VIEW5 = PAGE_FOLDER + "/ErrorView5.jsp";
 		    
@@ -77,6 +83,12 @@ public interface ORSView {
 		public String SUBJECT_LIST_CTL = APP_CONTEXT + "/ctl/SubjectListCtl";
 		public String TIMETABLE_CTL = APP_CONTEXT + "/ctl/TimeTableCtl";
 	    public String TIMETABLE_LIST_CTL = APP_CONTEXT + "/ctl/TimeTableListCtl";
+	    public String BANK_CTL = APP_CONTEXT + "/ctl/BankCtl";
+	    public String BANK_LIST_CTL = APP_CONTEXT + "/ctl/BankListCtl";
+	    public String ORDER_CTL = APP_CONTEXT + "/ctl/OrderCtl";
+	    public String ORDER_LIST_CTL = APP_CONTEXT + "/ctl/OrderListCtl";
+	    public String INVENTORY_CTL = APP_CONTEXT + "/ctl/InventoryCtl";
+	    public String INVENTORY_LIST_CTL = APP_CONTEXT + "/ctl/InventoryListCtl";
 	    public String ERROR_CTL = APP_CONTEXT + "/ErrorCtl";
 	
 }

@@ -12,4 +12,24 @@
 		<list key="textArray">
 		</list>
 	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item key="allPersp" value="false"/>
+		<item key="sort" value="0"/>
+		<list key="bounds">
+			<item value="457"/>
+			<item value="48"/>
+			<item value="1006"/>
+			<item value="693"/>
+		</list>
+		<list key="columns">
+			<item value="311"/>
+			<item value="624"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="511"/>
+		<item key="DIALOG_Y_ORIGIN" value="32"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
 </section>

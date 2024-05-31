@@ -25,6 +25,8 @@
     <%
     List l=(List)request.getAttribute("rollNo");
     
+    List clist = (List) request.getAttribute("CollegeList");
+    
     int next=DataUtility.getInt(request.getAttribute("nextlist").toString());
 
     %> 
@@ -54,11 +56,16 @@
                     <input type="text" name="name" placeholder="Enter Student Name" value="<%=ServletUtility.getParameter("name", request)%>">
                     &emsp; 
                     <label>RollNo :</label> 
-                    <input type="text" name="rollNo" placeholder="Enter Roll Number" value="<%=ServletUtility.getParameter("rollNo", request)%>">
+<%--                     <input type="text" name="rollNo" placeholder="Enter Roll Number" value="<%=ServletUtility.getParameter("rollNo", request)%>">
                    
-                    <%=HTMLUtility.getList("rollNo123",String.valueOf(bean.getId()),l)%>
+ --%>                    <%=HTMLUtility.getList("rollNo123",String.valueOf(bean.getId()),l)%>
                      &nbsp;
                      
+<%--                      <label>College List</label>
+                     
+                      <%=HTMLUtility.getList("collegeid",String.valueOf(bean.getId()),clist)%>
+                     &nbsp;
+ --%>                     
                       <%-- <label>Total :</font></label> 
                     <input type="text" name="total" placeholder="Enter total number" value="<%=ServletUtility.getParameter("total", request)%>">
                     &emsp; --%> 
